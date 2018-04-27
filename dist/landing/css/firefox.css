@@ -1,0 +1,31 @@
+.extension-text{top: 318px !important;}
+.extension-text-ff {
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+    font-family: helvetica;
+    left: 77px;
+    top: 130px;
+    position: absolute;
+    background: url(/img/new-fly.png) -2px 38px no-repeat !important;
+    padding: 354px 5px 116px 0 !important;
+    font-weight: 700;
+}
+.macfirefox{
+    background: url(/img/new-fly.png) 50px 38px no-repeat !important;
+    padding: 354px 5px 116px 111px!important;
+    left:138px;
+}
+.genOverlayBg,.genOverlayBg-ff{background: rgba(0,0,0,.6) !important;}
+.extension-text.macchrome{margin-left: -50px!important;}
+
+.gifoverlay4 .extension-text.macchrome{margin-left: -80px!important;}
+
+@media only screen and (max-width: 1400px) {
+    .genOverlayBg-ff .extension-text-ff {
+        top: 140px !important;
+        bottom: 0;
+        padding-bottom: 24px;
+    }
+}
+@media only screen and (max-height: 768px){.extension-text{top: 288px !important;}}
